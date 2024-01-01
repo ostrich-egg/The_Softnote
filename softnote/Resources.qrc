@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/new/icons"/>
+    <qresource prefix="/">
+        <file>newpng/about.png</file>
+        <file>newpng/colorIcon.png</file>
+        <file>newpng/copyIcon.png</file>
+        <file>newpng/email.png</file>
+        <file>newpng/highlighter.png</file>
+        <file>newpng/Home.png</file>
+        <file>newpng/newIcon.png</file>
+        <file>newpng/open.png</file>
+        <file>newpng/pasteIcon.png</file>
+        <file>newpng/penIcon.png</file>
+        <file>newpng/redoIcon.png</file>
+        <file>newpng/saveas.png</file>
+        <file>newpng/softnotemain.png</file>
+        <file>newpng/undoIcon.png</file>
+        <file>newpng/flashCard.png</file>
+        <file>newpng/pomodoro.png</file>
+        <file>newpng/templates.png</file>
+        <file>newpng/todo.png</file>
+        <file>newpng/studybook.png</file>
+    </qresource>
+</RCC>
