@@ -85,6 +85,8 @@ private slots:
 
      void on_pushButton_clicked();
 
+     void on_todo_clicked();
+
  private:
     Ui::SoftNote *ui;
 

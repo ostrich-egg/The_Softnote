@@ -535,7 +535,7 @@ void SoftNote::on_flashCard_clicked()
 
 
 
-            QString flashPath = QCoreApplication::applicationDirPath() + "/flash card/flash_card_project_test1.exe";
+            QString flashPath = QCoreApplication::applicationDirPath() + "/flash_card/flash_card_project_test1.exe";
 
             // Check if the file exists before attempting to start the process
             if (QFile::exists(flashPath)) {
@@ -585,6 +585,32 @@ void SoftNote::on_pushButton_clicked()
             } else {
             qDebug() << "Error: File not found - " << flashPath;
             }
+
+}
+
+
+void SoftNote::on_todo_clicked()
+{
+
+
+
+
+            //        QString pomodroPath = QCoreApplication::applicationDirPath() + "/executable_for_pomodoro/pomodro.exe";
+
+            QString pomodroPath = QCoreApplication::applicationDirPath() + "/e_todo/ToDoList.exe";
+
+            // Check if the file exists before attempting to start the process
+            if (QFile::exists(pomodroPath)) {
+
+            QProcess pomodroProcess;
+            pomodroProcess.startDetached(pomodroPath);
+
+            //        pomodroProcess.waitForFinished(-1);  // Wait for the process to finish
+            } else {
+            qDebug() << "Error: File not found - " << pomodroPath;
+            }
+
+
 
 }
 
