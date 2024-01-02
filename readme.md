@@ -2,11 +2,10 @@
 
 **You can make anything by writing**<br>
 
-![Images](image.png)
+![Images](image.png)<br>
 
 
 
-<br>
 >**University Project By:**<br>
 [`Sauhardha kafle`](https://github.com/shree5-png)<br>
 [`Aadarsha Pant`](https://github.com/Adarsha16)<br>
